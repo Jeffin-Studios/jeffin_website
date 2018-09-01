@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
     margin:0;
     padding:0;
-    color:#444;
+    color:white;
 }
 q:before,q:after {
     content:'';
@@ -68,6 +68,13 @@ body{
 /* p{
 	font-size: 2em;
 } */
+.navbar {
+  background-color: whitesmoke;
+}
+
+.nav-link {
+  color: #0099FF;
+}
 
 .section{
 	text-align:center;
@@ -86,10 +93,28 @@ body{
 }
 
 #cover {
-  background: url(../images/cover.jpg);
+  background: url(../images/wallpaper.jpg);
   background-size: cover;
   background-repeat:   no-repeat;
   background-position: center center;
+}
+
+#screen {
+  position:absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.3;
+}
+
+#covertitle {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  top: 40%;
+  text-align: center;
 }
 
 .content   {
@@ -223,6 +248,7 @@ header {
 }
 
 .navbar-brand {
-  margin-right: 100px;
-  color: red;
+  margin-right: 50px;
+  font-size: 28px;
+  padding: 0;
 }
