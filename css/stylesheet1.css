@@ -76,6 +76,10 @@ body{
   color: #0099FF;
 }
 
+.nav-link:hover {
+  color: gray;
+}
+
 .section{
 	text-align:center;
 }
